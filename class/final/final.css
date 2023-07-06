@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.background{
+  width: 540px;
+  height: 960px;
+  border: 1px solid #AACDFF;
+  border-radius: 20px;
+  margin-top: 285px;
+  margin-left: 768px;
+  box-shadow: 7px 7px 39px #0068FF;
+}
+
+.Wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Wrapper__title{
+  width: 380px;
+  height: 74px;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  color: #0068FF;
+  margin-top: 50px;
+}
+
+.Wrapper__body{
+  width: 380px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inputBoxEmail{
+  width: 100%;
+  height: 60px;
+  border: 1px solid #0068FF;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #797979;
+}
+
+.inputBox{
+  width: 100%;
+  height: 60px;
+  border: 1px solid #D2D2D2;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #797979;
+}
+
+.phonenumber{
+  width: 380px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.number{
+  width: 100px;
+  height: 100%;
+  border: 1px solid #D2D2D2;
+  border-radius: 7px;
+}
+
+.phoneline{
+  width: 12px;
+  border: 1px solid black;
+}
+
+.certification{
+  font-size: 18px;
+  font-weight: 400;
+  color: #0068FF;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sendCertify{
+  width: 120px;
+  height: 40px;
+  border: 1px solid #D2D2D2;
+  border-radius: 7px;
+  color: #0068FF;
+  background-color: white;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.finishCertify{
+  width: 120px;
+  height: 40px;
+  border: 1px solid #D2D2D2;
+  border-radius: 7px;
+  color: white;
+  background-color: #0068FF;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.selects{
+  width: 380px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.area{
+  width: 100%;
+  height: 60px;
+  border-radius: 7px;
+  border: 1px solid #D2D2D2;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 16px;
+  color: #797979;
+}
+
+.gender{
+  
+}
+
+.genderradio{
+  accent-color: #D2D2D2;
+}
+
+.line{
+  width: 100%;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.lastbutton{
+  width: 380px;
+  height: 75px;
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px solid #0068FF;
+  border-radius: 10px;
+  color: #0068FF;
+  background-color: white;
+  margin-bottom: 50px;
+}
